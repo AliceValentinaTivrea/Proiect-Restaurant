@@ -1,0 +1,355 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .menubtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .menu:hover .menubtn {
+  background-color: grey;
+}
+
+
+.icon-bar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+li.menu {
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.menu-content a:hover {background-color: #f1f1f1;}
+
+.menu:hover .menu-content {
+  display: block;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li:last-child {
+  margin-left: auto;
+}
+
+h1 {font-size:50px;
+text-transform:uppercase;
+font-weight:200;
+text-align:center;
+color: white;
+   }
+.title{width:33.33%;
+margin-top:10%;
+margin-left:33%;
+text-align:center;
+color:#000;}
+.title h1 {
+	color: white;
+}
+.fundal { 
+background: url(poza5.jpg) no-repeat; 
+ background-size: cover; 
+  width:105%;
+  height:70vh;
+  padding: 0;
+ margin:0;
+} 
+
+
+
+
+.image-container{
+	display:flex;
+justify-content: space-between;}
+.image-container img{
+	width:30%;
+	margin:0.5px;
+}
+
+
+h3{
+	color: white;
+text-align:center}
+p{
+	color: white;
+	text-align: center;
+}
+ 
+
+/*Poze pagina pizza */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery:hover img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.gallery {
+  flex: 1; /* equal width for all items */
+  text-align: center;
+}
+
+
+.button1 {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.button1 {
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+.cul{
+	color:white;
+}
+
+/*Contact */
+.contact-right h1{
+	margin-bottom: 20px;
+	color: white;
+	margin-right:40%;
+	
+}
+.contact-right form{	
+    display: flex;
+    flex-direction: column;	
+	width:400%;
+
+}
+.contact-right label{
+    font-weight: 300;
+    margin-bottom: 15px;
+	color: white;
+}
+
+.contact-right input{
+    border:1px solid black;
+    border-radius: 10px;
+    height:50px;
+    margin-bottom: 15px;
+    padding-left:25px;
+    font-size: 18px;
+}
+.contact-right input:focus{
+    border: 1px solid #f19f1f;
+    outline: 0 none;
+}
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+	width:40%;
+	margin-left:10%;
+	
+	
+} 
+/* Harta */
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:295px;
+	width:450px;
+	
+	
+
+	}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:295px;
+	width:450px;
+	}
+.aszh {
+	display: flex;
+    flex-direction: column;
+    padding:45px;
+	width:60%;
+	margin-left:50%;	
+	height: 50%;
+}
+
+.rezervari {
+	display:flex;
+  border: 5px outset lightblue;
+  background-color: lightgrey;    
+  text-align: left;
+  width: 50%;
+  height: 100%;
+  margin-left:70%;	
+  flex-direction: column;
+  padding:15px;
+}
+		
+.activ{
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-column-gap: 10%;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 30px;
+	 
+} 
+
+/* Sign in - formular */
+.infatisare h1{
+	margin-bottom: 20px;
+	color: white;
+	margin-right:40%;
+	
+}
+.infatisare {
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+	width:40%;
+	margin-left:40%;
+}
+.infatisare form{
+    display: flex;
+    flex-direction: column;	
+	width:60%;
+
+}
+.infatisare label{
+    font-weight: 300;
+    margin-bottom: 15px;
+	color: white;
+}
+.infatisare input{
+    border:1px solid black;
+    border-radius: 10px;
+    height:50px;
+    margin-bottom: 15px;
+    padding-left:25px;
+    font-size: 18px;
+}
+
+.infatisare input:focus{
+    border: 1px solid #f19f1f;
+    outline: 0 none;
+}
+
+/* Q&A */
+.qa {
+    padding: 3rem;
+}
+.qa h1{
+	color: white;
+}
+.para {
+    background-color: #ccc;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: #333;
+    padding: 3rem;
+    margin-top: 20px;
+}
+
+
+
+.social-footer{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 20%;
+    padding-top: 60px;
+    margin-top: -60px;
+    line-height:5px;
+
+}
+.social-footer img{
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.social-footer img:first-child{
+    margin-right: 10px;
+}
+footer{
+	padding:30px 0;
+}
